@@ -1,6 +1,7 @@
 
 package Dashboard.Swing;
 
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
@@ -25,6 +26,8 @@ public class PanelBackground extends javax.swing.JPanel {
     public PanelBackground() {
         initComponents();
         setOpaque(false);
+        setBackground(new Color(242, 242, 242));
+        setForeground(new Color(23, 102, 255));  
     }
     
     public void paint(Graphics grphcs) {
