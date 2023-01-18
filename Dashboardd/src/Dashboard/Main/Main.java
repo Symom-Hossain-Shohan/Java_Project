@@ -8,10 +8,7 @@ import Dashboard.Form.form1;
 import java.awt.Color;
 import java.awt.Component;
 
-/**
- *
- * @author shsho
- */
+
 public class Main extends javax.swing.JFrame {
 
     /**
